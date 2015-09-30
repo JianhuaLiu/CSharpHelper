@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConsole", "CSharpConsole\CSharpConsole.csproj", "{70FF8C01-DBFF-4B28-84C7-AD60EAA1BFEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpHelper", "CSharpHelper\CSharpHelper.csproj", "{B2EBA0AE-918E-49B8-B165-F40308A19535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpApplication", "CSharpApplication\CSharpApplication.csproj", "{DBC073DF-BA0E-4CA0-8F9A-A2B21892C313}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70FF8C01-DBFF-4B28-84C7-AD60EAA1BFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FF8C01-DBFF-4B28-84C7-AD60EAA1BFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FF8C01-DBFF-4B28-84C7-AD60EAA1BFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FF8C01-DBFF-4B28-84C7-AD60EAA1BFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2EBA0AE-918E-49B8-B165-F40308A19535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2EBA0AE-918E-49B8-B165-F40308A19535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2EBA0AE-918E-49B8-B165-F40308A19535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2EBA0AE-918E-49B8-B165-F40308A19535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC073DF-BA0E-4CA0-8F9A-A2B21892C313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC073DF-BA0E-4CA0-8F9A-A2B21892C313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC073DF-BA0E-4CA0-8F9A-A2B21892C313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC073DF-BA0E-4CA0-8F9A-A2B21892C313}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://yigedandandenanren.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CSharpConsole\\CSharpConsole.csproj
+		SccProjectName1 = CSharpConsole
+		SccLocalPath1 = CSharpConsole
+		SccProjectUniqueName2 = CSharpHelper\\CSharpHelper.csproj
+		SccProjectName2 = CSharpHelper
+		SccLocalPath2 = CSharpHelper
+		SccProjectUniqueName3 = CSharpApplication\\CSharpApplication.csproj
+		SccProjectName3 = CSharpApplication
+		SccLocalPath3 = CSharpApplication
+	EndGlobalSection
+EndGlobal
