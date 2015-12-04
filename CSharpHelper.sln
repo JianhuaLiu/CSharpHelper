@@ -9,6 +9,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpHelper", "CSharpHelpe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpApplication", "CSharpApplication\CSharpApplication.csproj", "{DBC073DF-BA0E-4CA0-8F9A-A2B21892C313}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{97F40F39-CA94-4B35-B9E3-E87EEB716D9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF", "WCF", "{F8358203-7C31-4E0B-8EB1-5C096832F40D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sockt", "Sockt", "{DEE0E927-DBCB-4AF9-97D0-49B13CD1C223}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF", "EF", "{A2958354-94BA-469F-AF5E-8A0FBDFB4F50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEMO", "DEMO", "{7AF3C671-4342-435E-8B52-B8BA24D0A6D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodView", "MethodView\MethodView.csproj", "{ED0DBB25-8BB9-41CF-B24A-FDF099F9E7A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketConsole", "SocketConsole\SocketConsole.csproj", "{6BE90F51-1B02-4B76-82AC-9A683BE146FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketClient", "SocketClient\SocketClient.csproj", "{207BF10C-DC2E-4CEC-BBA0-E3E29E488096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDemo", "MVCDemo\MVCDemo.csproj", "{991D58BC-5A59-4644-B3E2-A9BF73AE39B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,12 +45,38 @@ Global
 		{DBC073DF-BA0E-4CA0-8F9A-A2B21892C313}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBC073DF-BA0E-4CA0-8F9A-A2B21892C313}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBC073DF-BA0E-4CA0-8F9A-A2B21892C313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0DBB25-8BB9-41CF-B24A-FDF099F9E7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0DBB25-8BB9-41CF-B24A-FDF099F9E7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0DBB25-8BB9-41CF-B24A-FDF099F9E7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0DBB25-8BB9-41CF-B24A-FDF099F9E7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE90F51-1B02-4B76-82AC-9A683BE146FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE90F51-1B02-4B76-82AC-9A683BE146FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE90F51-1B02-4B76-82AC-9A683BE146FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE90F51-1B02-4B76-82AC-9A683BE146FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207BF10C-DC2E-4CEC-BBA0-E3E29E488096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207BF10C-DC2E-4CEC-BBA0-E3E29E488096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207BF10C-DC2E-4CEC-BBA0-E3E29E488096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207BF10C-DC2E-4CEC-BBA0-E3E29E488096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991D58BC-5A59-4644-B3E2-A9BF73AE39B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991D58BC-5A59-4644-B3E2-A9BF73AE39B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991D58BC-5A59-4644-B3E2-A9BF73AE39B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991D58BC-5A59-4644-B3E2-A9BF73AE39B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97F40F39-CA94-4B35-B9E3-E87EEB716D9B} = {7AF3C671-4342-435E-8B52-B8BA24D0A6D7}
+		{F8358203-7C31-4E0B-8EB1-5C096832F40D} = {7AF3C671-4342-435E-8B52-B8BA24D0A6D7}
+		{DEE0E927-DBCB-4AF9-97D0-49B13CD1C223} = {7AF3C671-4342-435E-8B52-B8BA24D0A6D7}
+		{A2958354-94BA-469F-AF5E-8A0FBDFB4F50} = {7AF3C671-4342-435E-8B52-B8BA24D0A6D7}
+		{ED0DBB25-8BB9-41CF-B24A-FDF099F9E7A6} = {7AF3C671-4342-435E-8B52-B8BA24D0A6D7}
+		{6BE90F51-1B02-4B76-82AC-9A683BE146FB} = {DEE0E927-DBCB-4AF9-97D0-49B13CD1C223}
+		{207BF10C-DC2E-4CEC-BBA0-E3E29E488096} = {DEE0E927-DBCB-4AF9-97D0-49B13CD1C223}
+		{991D58BC-5A59-4644-B3E2-A9BF73AE39B7} = {97F40F39-CA94-4B35-B9E3-E87EEB716D9B}
+	EndGlobalSection
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
+		SccNumberOfProjects = 8
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://yigedandandenanren.visualstudio.com/defaultcollection
 		SccLocalPath0 = .
@@ -45,5 +89,21 @@ Global
 		SccProjectUniqueName3 = CSharpApplication\\CSharpApplication.csproj
 		SccProjectName3 = CSharpApplication
 		SccLocalPath3 = CSharpApplication
+		SccProjectUniqueName4 = MethodView\\MethodView.csproj
+		SccProjectTopLevelParentUniqueName4 = CSharpHelper.sln
+		SccProjectName4 = MethodView
+		SccLocalPath4 = MethodView
+		SccProjectUniqueName5 = SocketConsole\\SocketConsole.csproj
+		SccProjectTopLevelParentUniqueName5 = CSharpHelper.sln
+		SccProjectName5 = SocketConsole
+		SccLocalPath5 = SocketConsole
+		SccProjectUniqueName6 = SocketClient\\SocketClient.csproj
+		SccProjectTopLevelParentUniqueName6 = CSharpHelper.sln
+		SccProjectName6 = SocketClient
+		SccLocalPath6 = SocketClient
+		SccProjectUniqueName7 = MVCDemo\\MVCDemo.csproj
+		SccProjectTopLevelParentUniqueName7 = CSharpHelper.sln
+		SccProjectName7 = MVCDemo
+		SccLocalPath7 = MVCDemo
 	EndGlobalSection
 EndGlobal

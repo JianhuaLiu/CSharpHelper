@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpHelper
 {
@@ -23,7 +20,7 @@ namespace CSharpHelper
         public static List<T> ToList<T>(this DataSet ds, int tableNum = 0) where T : class, new()
         {
             DataTable dt = ds.Tables[tableNum];
-            // 返回值初始化 
+            // 返回值初始化
             List<T> result = new List<T>();
             for (int j = 0; j < dt.Rows.Count; j++)
             {
@@ -33,10 +30,10 @@ namespace CSharpHelper
                 {
                     for (int i = 0; i < dt.Columns.Count; i++)
                     {
-                        // 属性与字段名称一致的进行赋值 
+                        // 属性与字段名称一致的进行赋值
                         if (pi.Name.Equals(dt.Columns[i].ColumnName))
                         {
-                            // 数据库NULL值单独处理 
+                            // 数据库NULL值单独处理
                             if (dt.Rows[j][i] != DBNull.Value)
                                 pi.SetValue(_t, dt.Rows[j][i], null);
                             else

@@ -10,7 +10,10 @@ namespace CSharpHelper
     public class CookieHelper
     {
         private string cookName = "";
-        private CookieHelper() { }
+
+        private CookieHelper()
+        {
+        }
 
         /// <summary>
         /// 定义Cookie名称

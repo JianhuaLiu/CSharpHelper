@@ -1,10 +1,5 @@
 ﻿using CSharpHelper;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace CSharpApplication
 {
@@ -19,11 +14,14 @@ namespace CSharpApplication
             //var result=  help.GetCookie();
             //var a = help.IsCreate;
 
-            SessionHelper help = new SessionHelper();
-            Dictionary<string, string> di = new Dictionary<string, string>();
-            di.Add("Name","晨星宇");
-            help.SetSession(di);
-            var result = help.GetSession("Name");
+            //SessionHelper help = new SessionHelper();
+            //Dictionary<string, string> di = new Dictionary<string, string>();
+            //di.Add("Name","晨星宇");
+            //help.SetSession(di);
+            //var result = help.GetSession("Name");
+
+            LogHelper.ErrorWriteLog("Error");
+            LogHelper.InfoWriteLog("Info");
         }
     }
 }

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpHelper
 {
@@ -11,6 +8,7 @@ namespace CSharpHelper
     {
         //测试数组
         public List<string> alBookReader;
+
         public BookModel()
         {
             alBookReader = new List<string> { "asdf", "fdsa" };
@@ -24,6 +22,7 @@ namespace CSharpHelper
         public string strBookPass;
 
         private string _bookId;
+
         //测试属性
         public string BookId { get; set; }
     }
@@ -43,6 +42,7 @@ namespace CSharpHelper
         public string strBookPass;
 
         private string _bookId;
+
         //测试属性
         public string BookId { get; set; }
     }

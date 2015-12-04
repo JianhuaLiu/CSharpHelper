@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Web;
 
 namespace CSharpHelper
@@ -59,9 +55,11 @@ namespace CSharpHelper
         /// <returns></returns>
         public bool IsCreate(string name)
         {
-            if (HttpContext.Current.Session[name] == null) {
+            if (HttpContext.Current.Session[name] == null)
+            {
                 return false;
-            } else
+            }
+            else
             {
                 return true;
             }
