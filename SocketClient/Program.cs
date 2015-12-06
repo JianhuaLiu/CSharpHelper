@@ -39,7 +39,7 @@ namespace SocketClient
             {
                 try
                 {
-                    await Task.Delay(1000);    //等待1秒钟
+                    //await Task.Delay(1000);    //等待1秒钟
                     string sendMessage = "client send Message Hellp" + DateTime.Now;
                     clientSocket.Send(Encoding.ASCII.GetBytes(sendMessage));
                     Console.WriteLine("向服务器发送消息：{0}" + sendMessage);

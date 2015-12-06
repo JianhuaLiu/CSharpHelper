@@ -9,13 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpHelper", "CSharpHelpe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpApplication", "CSharpApplication\CSharpApplication.csproj", "{DBC073DF-BA0E-4CA0-8F9A-A2B21892C313}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{97F40F39-CA94-4B35-B9E3-E87EEB716D9B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF", "WCF", "{F8358203-7C31-4E0B-8EB1-5C096832F40D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sockt", "Sockt", "{DEE0E927-DBCB-4AF9-97D0-49B13CD1C223}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF", "EF", "{A2958354-94BA-469F-AF5E-8A0FBDFB4F50}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEMO", "DEMO", "{7AF3C671-4342-435E-8B52-B8BA24D0A6D7}"
 EndProject
@@ -25,7 +21,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketConsole", "SocketCons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketClient", "SocketClient\SocketClient.csproj", "{207BF10C-DC2E-4CEC-BBA0-E3E29E488096}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDemo", "MVCDemo\MVCDemo.csproj", "{991D58BC-5A59-4644-B3E2-A9BF73AE39B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceDemo", "WcfServiceDemo\WcfServiceDemo.csproj", "{A6AB5157-9D26-419C-92F8-C156E1526021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfClientDemo", "WcfClientDemo\WcfClientDemo.csproj", "{12501102-52FF-4224-A035-A1A8F68B4B31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EFMVC5", "EFMVC5", "{EA3EB544-C106-478A-AFA0-42F0A11B077A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninesky.Web", "Ninesky.Web\Ninesky.Web.csproj", "{A61C2BFA-C53B-4632-B020-1805EE4A157F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninesky.IBLL", "Ninesky.IBLL\Ninesky.IBLL.csproj", "{1914FAC2-1161-4D86-A219-9577321459DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninesky.IDAL", "Ninesky.IDAL\Ninesky.IDAL.csproj", "{1F3A4907-901F-45CF-9A10-13CA45D3AD9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninesky.BLL", "Ninesky.BLL\Ninesky.BLL.csproj", "{99A82285-46FC-4B07-A364-374FA1F18B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninesky.DAL", "Ninesky.DAL\Ninesky.DAL.csproj", "{CF7CDE73-364E-4E2C-AE09-7E3F85C0680B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninesky.Models", "Ninesky.Models\Ninesky.Models.csproj", "{E0A43C3C-72DA-46E0-BDD5-36D9944165A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninesky.Common", "Ninesky.Common\Ninesky.Common.csproj", "{22B82FEE-C4EE-49D6-A17A-585E0ABDA016}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,26 +71,65 @@ Global
 		{207BF10C-DC2E-4CEC-BBA0-E3E29E488096}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{207BF10C-DC2E-4CEC-BBA0-E3E29E488096}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{207BF10C-DC2E-4CEC-BBA0-E3E29E488096}.Release|Any CPU.Build.0 = Release|Any CPU
-		{991D58BC-5A59-4644-B3E2-A9BF73AE39B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{991D58BC-5A59-4644-B3E2-A9BF73AE39B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{991D58BC-5A59-4644-B3E2-A9BF73AE39B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{991D58BC-5A59-4644-B3E2-A9BF73AE39B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AB5157-9D26-419C-92F8-C156E1526021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AB5157-9D26-419C-92F8-C156E1526021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AB5157-9D26-419C-92F8-C156E1526021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AB5157-9D26-419C-92F8-C156E1526021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12501102-52FF-4224-A035-A1A8F68B4B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12501102-52FF-4224-A035-A1A8F68B4B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12501102-52FF-4224-A035-A1A8F68B4B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12501102-52FF-4224-A035-A1A8F68B4B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61C2BFA-C53B-4632-B020-1805EE4A157F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61C2BFA-C53B-4632-B020-1805EE4A157F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61C2BFA-C53B-4632-B020-1805EE4A157F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61C2BFA-C53B-4632-B020-1805EE4A157F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1914FAC2-1161-4D86-A219-9577321459DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1914FAC2-1161-4D86-A219-9577321459DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1914FAC2-1161-4D86-A219-9577321459DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1914FAC2-1161-4D86-A219-9577321459DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F3A4907-901F-45CF-9A10-13CA45D3AD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3A4907-901F-45CF-9A10-13CA45D3AD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3A4907-901F-45CF-9A10-13CA45D3AD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3A4907-901F-45CF-9A10-13CA45D3AD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A82285-46FC-4B07-A364-374FA1F18B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A82285-46FC-4B07-A364-374FA1F18B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A82285-46FC-4B07-A364-374FA1F18B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A82285-46FC-4B07-A364-374FA1F18B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7CDE73-364E-4E2C-AE09-7E3F85C0680B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7CDE73-364E-4E2C-AE09-7E3F85C0680B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7CDE73-364E-4E2C-AE09-7E3F85C0680B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7CDE73-364E-4E2C-AE09-7E3F85C0680B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A43C3C-72DA-46E0-BDD5-36D9944165A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A43C3C-72DA-46E0-BDD5-36D9944165A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A43C3C-72DA-46E0-BDD5-36D9944165A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A43C3C-72DA-46E0-BDD5-36D9944165A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B82FEE-C4EE-49D6-A17A-585E0ABDA016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B82FEE-C4EE-49D6-A17A-585E0ABDA016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B82FEE-C4EE-49D6-A17A-585E0ABDA016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B82FEE-C4EE-49D6-A17A-585E0ABDA016}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{97F40F39-CA94-4B35-B9E3-E87EEB716D9B} = {7AF3C671-4342-435E-8B52-B8BA24D0A6D7}
 		{F8358203-7C31-4E0B-8EB1-5C096832F40D} = {7AF3C671-4342-435E-8B52-B8BA24D0A6D7}
 		{DEE0E927-DBCB-4AF9-97D0-49B13CD1C223} = {7AF3C671-4342-435E-8B52-B8BA24D0A6D7}
-		{A2958354-94BA-469F-AF5E-8A0FBDFB4F50} = {7AF3C671-4342-435E-8B52-B8BA24D0A6D7}
 		{ED0DBB25-8BB9-41CF-B24A-FDF099F9E7A6} = {7AF3C671-4342-435E-8B52-B8BA24D0A6D7}
 		{6BE90F51-1B02-4B76-82AC-9A683BE146FB} = {DEE0E927-DBCB-4AF9-97D0-49B13CD1C223}
 		{207BF10C-DC2E-4CEC-BBA0-E3E29E488096} = {DEE0E927-DBCB-4AF9-97D0-49B13CD1C223}
-		{991D58BC-5A59-4644-B3E2-A9BF73AE39B7} = {97F40F39-CA94-4B35-B9E3-E87EEB716D9B}
+		{A6AB5157-9D26-419C-92F8-C156E1526021} = {F8358203-7C31-4E0B-8EB1-5C096832F40D}
+		{12501102-52FF-4224-A035-A1A8F68B4B31} = {F8358203-7C31-4E0B-8EB1-5C096832F40D}
+		{EA3EB544-C106-478A-AFA0-42F0A11B077A} = {7AF3C671-4342-435E-8B52-B8BA24D0A6D7}
+		{A61C2BFA-C53B-4632-B020-1805EE4A157F} = {EA3EB544-C106-478A-AFA0-42F0A11B077A}
+		{1914FAC2-1161-4D86-A219-9577321459DE} = {EA3EB544-C106-478A-AFA0-42F0A11B077A}
+		{1F3A4907-901F-45CF-9A10-13CA45D3AD9F} = {EA3EB544-C106-478A-AFA0-42F0A11B077A}
+		{99A82285-46FC-4B07-A364-374FA1F18B93} = {EA3EB544-C106-478A-AFA0-42F0A11B077A}
+		{CF7CDE73-364E-4E2C-AE09-7E3F85C0680B} = {EA3EB544-C106-478A-AFA0-42F0A11B077A}
+		{E0A43C3C-72DA-46E0-BDD5-36D9944165A4} = {EA3EB544-C106-478A-AFA0-42F0A11B077A}
+		{22B82FEE-C4EE-49D6-A17A-585E0ABDA016} = {EA3EB544-C106-478A-AFA0-42F0A11B077A}
 	EndGlobalSection
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 8
+		SccNumberOfProjects = 16
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://yigedandandenanren.visualstudio.com/defaultcollection
 		SccLocalPath0 = .
@@ -101,9 +154,41 @@ Global
 		SccProjectTopLevelParentUniqueName6 = CSharpHelper.sln
 		SccProjectName6 = SocketClient
 		SccLocalPath6 = SocketClient
-		SccProjectUniqueName7 = MVCDemo\\MVCDemo.csproj
+		SccProjectUniqueName7 = WcfServiceDemo\\WcfServiceDemo.csproj
 		SccProjectTopLevelParentUniqueName7 = CSharpHelper.sln
-		SccProjectName7 = MVCDemo
-		SccLocalPath7 = MVCDemo
+		SccProjectName7 = WcfServiceDemo
+		SccLocalPath7 = WcfServiceDemo
+		SccProjectUniqueName8 = WcfClientDemo\\WcfClientDemo.csproj
+		SccProjectTopLevelParentUniqueName8 = CSharpHelper.sln
+		SccProjectName8 = WcfClientDemo
+		SccLocalPath8 = WcfClientDemo
+		SccProjectUniqueName9 = Ninesky.Web\\Ninesky.Web.csproj
+		SccProjectTopLevelParentUniqueName9 = CSharpHelper.sln
+		SccProjectName9 = Ninesky.Web
+		SccLocalPath9 = Ninesky.Web
+		SccProjectUniqueName10 = Ninesky.IBLL\\Ninesky.IBLL.csproj
+		SccProjectTopLevelParentUniqueName10 = CSharpHelper.sln
+		SccProjectName10 = Ninesky.IBLL
+		SccLocalPath10 = Ninesky.IBLL
+		SccProjectUniqueName11 = Ninesky.IDAL\\Ninesky.IDAL.csproj
+		SccProjectTopLevelParentUniqueName11 = CSharpHelper.sln
+		SccProjectName11 = Ninesky.IDAL
+		SccLocalPath11 = Ninesky.IDAL
+		SccProjectUniqueName12 = Ninesky.BLL\\Ninesky.BLL.csproj
+		SccProjectTopLevelParentUniqueName12 = CSharpHelper.sln
+		SccProjectName12 = Ninesky.BLL
+		SccLocalPath12 = Ninesky.BLL
+		SccProjectUniqueName13 = Ninesky.DAL\\Ninesky.DAL.csproj
+		SccProjectTopLevelParentUniqueName13 = CSharpHelper.sln
+		SccProjectName13 = Ninesky.DAL
+		SccLocalPath13 = Ninesky.DAL
+		SccProjectUniqueName14 = Ninesky.Models\\Ninesky.Models.csproj
+		SccProjectTopLevelParentUniqueName14 = CSharpHelper.sln
+		SccProjectName14 = Ninesky.Models
+		SccLocalPath14 = Ninesky.Models
+		SccProjectUniqueName15 = Ninesky.Common\\Ninesky.Common.csproj
+		SccProjectTopLevelParentUniqueName15 = CSharpHelper.sln
+		SccProjectName15 = Ninesky.Common
+		SccLocalPath15 = Ninesky.Common
 	EndGlobalSection
 EndGlobal
