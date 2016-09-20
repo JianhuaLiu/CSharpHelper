@@ -23,6 +23,11 @@ namespace CSharpHelper
                 try
                 {
                     ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls;
+                    ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(
+                        delegate (object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+                        {
+                            return true;
+                        });
                 }
                 catch (System.Exception ex)
                 {
@@ -58,6 +63,11 @@ namespace CSharpHelper
                 try
                 {
                     ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls;
+                    ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(
+                        delegate (object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+                        {
+                            return true;
+                        });
                 }
                 catch (System.Exception ex)
                 {
